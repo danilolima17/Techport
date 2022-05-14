@@ -62,9 +62,24 @@ body {
     color: #38A3A6;
 }
 
+.bg-mobile {
+    display: none;
+}
+
+
 
 @media (max-width: 667px) {
     .title-principal {
         font-size: 27px;
     }
+
+    .bg-desk {
+        display: none;
+    }
+
+    .bg-mobile {
+        display: block;
+      
+    }
+
 }
